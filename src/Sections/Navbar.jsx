@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {MdClose} from 'react-icons/md'
 import '../Styles/Navbar.scss'
-import Brandname from './Brandname';
-import { Button } from './Button';
+import Brandname from '../components/Brandname';
+import { Button } from '../components/Button';
 
 function Navbar(){
     const [toggle ,setToggle] = useState(false);

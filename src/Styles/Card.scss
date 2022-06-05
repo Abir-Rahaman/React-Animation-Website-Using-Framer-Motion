@@ -1,0 +1,40 @@
+@import '../Utilites/Colors.scss';
+.card{
+    height: 8rem;
+    width: 15rem;
+    background-color: $headingColor;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgb(0,0,0,0.15) 0px 5px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 1s ease-in-out;
+    .logo{
+        background-color: #7c003e33;
+        height: 4rem;
+        width: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        svg{
+            color: #f32a8f;
+            font-size: 2rem;
+        }
+        .card-title{
+            margin-bottom: 1rem;
+            font-size: x-large;
+            color: rgb(18, 18, 88);
+        }
+        &:hover{
+            box-shadow: #f32a8f2f 5px 5px ,#f32a8f1e 15px 15px,#f32a8f02 25px 25px ;
+            transition: 1s;
+        }
+    }
+    
+    
+
+
+}
