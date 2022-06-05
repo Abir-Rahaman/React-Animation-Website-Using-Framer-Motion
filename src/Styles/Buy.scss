@@ -1,0 +1,83 @@
+@import '../Utilites/Colors.scss';
+
+.buy-container{
+    min-height: 50vh;
+    .container{
+        margin: 0 10%;
+        padding: 5rem 0;
+        .top{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            .title{
+                margin-bottom: 1rem;
+            }
+            .subtitle{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            p{
+                width: 65%;
+                text-align: center;
+                color: $lightFontColor;
+
+            }
+        }
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        margin-top: 1rem;
+        .category{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            ul{
+                list-style-type: none;
+                width: 80%;
+                li{
+                    color: $lightFontColor;
+                    margin-bottom: 1.5rem;
+                    padding-left: 45px;
+                    line-height: 25px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: -4px;
+                        left: 0;
+                        width: 50px;
+                        height: 40px;
+                       
+                        background-image: url("../Assets/idea.png");
+                        background-repeat: no-repeat;
+                      
+                    }
+
+                }
+            }
+
+        }
+        .video{
+            height: 24rem;
+            width: 100%;
+            background-image: url("../Assets/buy.png");
+            background-size: cover;
+            border-radius: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg{
+                color: white;
+                font-size: 4rem;
+                cursor: pointer;
+
+
+            }
+        }
+    }
+
+}

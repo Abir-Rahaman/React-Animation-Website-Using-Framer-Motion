@@ -14,7 +14,7 @@ const About = () => {
         <div className='about-container'>
             <div className="container">
                 <div className="details">
-                    <Title title='About Cffeain'></Title>
+                    <Title title='About Cffeain' lineCenter={true}></Title>
                     <p>This is a very casual and nice place for having coffee with friends or family and to hang out for a while, it's very relaxing to be there, the coffee here is very very good, to me they have the best coffee in town</p>
                     <p>a great coffee chain of dhaka. very trendy ambiance. great staff and friendly services. simply a lovely place to hang out.</p>
                     <Button content='Why Caffain?'> </Button>
