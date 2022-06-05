@@ -1,0 +1,27 @@
+@import "../Utilites/Colors.scss";
+
+.image{
+    img{
+        margin-top: 70px;
+    }
+}
+.main-container{
+    margin: 0 10%;
+    .container{
+        display: grid;  
+        grid-template-columns: repeat(2,1fr);
+        .content{
+            h1{
+                font-size: 4rem;
+                color: $headingColor;
+            }
+            p{
+                font-size: 20px;
+                color: $lightFontColor;
+            }
+            margin-top: 3.4rem;
+            margin-right: 3rem;
+            
+        }   
+    }
+}
